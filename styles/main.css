@@ -18,21 +18,21 @@ p{
 }
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
-/* Phone (0px-320px) */
+/* #1 Phone (0px-320px) */
 @media (min-width: 0px) {
   p {
     color: red;
   }
 }
 
-/* Tablet Takes priority - anything over 320px (320px-768px)*/
+/* #2 Tablet Takes priority based on order - anything over 320px (320px-768px)*/
 @media (min-width: 320px) {
   p{
     color: blue;
   }
 }
 
-/* Desktop Takes priority - anything over 768px (768px-inf)*/
+/* #3 Desktop Takes priority based on order - anything over 768px (768px-inf)*/
 @media (min-width: 768px) {
   p{
     color: rgb(10, 221, 38);
