@@ -8,5 +8,12 @@ h1 {
   margin: auto;
 }
 
-
+p{
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 80vw;
+}
 
