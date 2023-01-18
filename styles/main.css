@@ -17,6 +17,10 @@ p{
   width: 98vw;
 }
 
+#p3 {
+  color: rgb(0, 0, 0);
+}
+
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -70,5 +74,9 @@ p{
     margin: auto;
     padding-top: 10px;
     width: 98vw;
+  }
+
+  #p3 {
+    color: blueviolet;
   }
 }
