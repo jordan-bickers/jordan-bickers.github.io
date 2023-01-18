@@ -16,6 +16,11 @@ p{
   padding-top: 10px;
   width: 98vw;
 }
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+}
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
 /* #1 Phone (0px-320px) */
