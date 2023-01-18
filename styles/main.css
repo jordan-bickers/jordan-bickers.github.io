@@ -1,5 +1,4 @@
 
-
 h1 {
   color: rgb(32, 2, 163);
   font-size: 50px;
@@ -8,7 +7,12 @@ h1 {
   margin: auto;
 }
 
-p{
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2013/04/29/14/36/wellington-107935_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
   font-size: 15px;
   font-family: Montserrat;
   text-align: center;
@@ -38,13 +42,29 @@ p{
 }
 
 ol {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   font-family: Montserrat;
   text-align: left;
   margin: auto;
   padding-top: 10px;
   width: 95%;
+}
+
+ol, label {
+  display: block;
+}
+
+label {
+  color: white;
+  margin: auto;
+  padding-top: 10px;
+  width: 95%;
+  
+}
+
+#checkboxes {
+  color: white;
 }
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
@@ -77,7 +97,7 @@ ol {
 /* #3 Desktop Takes priority based on order - anything over 768px (768px-inf)*/
 @media (min-width: 768px) {
   p{
-    color: rgb(10, 221, 38);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: Montserrat;
     text-align: center;
@@ -87,6 +107,6 @@ ol {
   }
 
   #p3 {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
   }
 }
