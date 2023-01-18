@@ -1,7 +1,7 @@
 
 
 h1 {
-  color: red;
+  color: rgb(32, 2, 163);
   font-size: 50px;
   font-family: Montserrat;
   text-align: center;
@@ -34,7 +34,7 @@ p{
 /* #2 Tablet Takes priority based on order - anything over 320px (320px-768px)*/
 @media (min-width: 320px) {
   p{
-    color: blue;
+    color: rgb(255, 0, 149);
     font-size: 15px;
     font-family: Montserrat;
     text-align: center;
