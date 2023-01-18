@@ -14,7 +14,7 @@ p{
   text-align: center;
   margin: auto;
   padding-top: 10px;
-  width: 90vw;
+  width: 98vw;
 }
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
@@ -22,6 +22,12 @@ p{
 @media (min-width: 0px) {
   p {
     color: red;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    width: 98vw;
   }
 }
 
@@ -29,6 +35,12 @@ p{
 @media (min-width: 320px) {
   p{
     color: blue;
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    width: 98vw;
   }
 }
 
@@ -36,5 +48,11 @@ p{
 @media (min-width: 768px) {
   p{
     color: rgb(10, 221, 38);
+    font-size: 15px;
+    font-family: Montserrat;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    width: 98vw;
   }
 }
