@@ -14,7 +14,7 @@ p{
   text-align: center;
   margin: auto;
   padding-top: 10px;
-  width: 98vw;
+  width: 95vw;
 }
 
 #p3 {
@@ -36,6 +36,16 @@ p{
   margin: auto;
   padding-top: 5px;
 }
+
+ol {
+  color: black;
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+  width: 95%;
+}
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
 /* #1 Phone (0px-320px) */
@@ -47,7 +57,7 @@ p{
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    width: 98vw;
+    width: 95vw;
   }
 }
 
@@ -60,7 +70,7 @@ p{
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    width: 98vw;
+    width: 95vw;
   }
 }
 
@@ -73,7 +83,7 @@ p{
     text-align: center;
     margin: auto;
     padding-top: 10px;
-    width: 98vw;
+    width: 95vw;
   }
 
   #p3 {
