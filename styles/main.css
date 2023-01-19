@@ -22,7 +22,7 @@ space-evenly: items are distributed so that the spacing between any two items (a
   border-width: 3px;
   border-style: dashed;
   border-radius: 20px;
-
+  background-color: rgb(139, 131, 131);
 }
 h1 {
   color: rgb(255, 0, 0);
@@ -71,22 +71,23 @@ ol {
   font-size: 15px;
   font-family: Montserrat;
   text-align: left;
-  margin: auto;
-  padding-top: 10px;
-  width: 95%;
+  margin-right: 80px;
+  padding-right: 20px;
+  
 }
 
 ol, label {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: rgb(139, 131, 131);
+  width: 35%;
 }
 
 label {
   color: white;
-  margin: auto;
-  padding-top: 10px;
-  width: 95%;
+  padding: 10px;
+  display: inline-flex;
   
 }
 
