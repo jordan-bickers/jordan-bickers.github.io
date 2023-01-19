@@ -120,7 +120,7 @@ label {
 
 /* #3 Desktop Takes priority based on order - anything over 768px (768px-inf)*/
 @media (min-width: 768px) {
-  p{
+  p, h1{
     color: rgb(0, 0, 0);
     font-size: 15px;
     font-family: Montserrat;
