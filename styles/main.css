@@ -138,14 +138,23 @@ label {
 
 /* This is the beginning of the Margin, Padding, Borders, styles. */
 
-#main-MBP{
+#main-MBP {
+  background-color: red;
+}
+
+#head-MBP {
 
 }
 
-#head-MBP{
-
-}
-
-#body-MBP{
+#body-MBP {
   
+}
+
+#p-MBP {
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 95vw;
 }
