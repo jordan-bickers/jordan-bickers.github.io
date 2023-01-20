@@ -139,7 +139,18 @@ label {
 /* This is the beginning of the Margin, Padding, Borders, styles. */
 
 #main-MBP {
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+  border-color: ;
+  border-width: ;
+  border-style: ;
+  border-radius: ;
+  background-color: rgb(139, 131, 131);
 }
 
 #head-MBP {
