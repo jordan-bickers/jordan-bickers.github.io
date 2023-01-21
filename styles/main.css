@@ -32,7 +32,7 @@ h1 {
   margin: auto;
 }
 
-body {
+#body1 {
   background-image: url("https://cdn.pixabay.com/photo/2013/04/29/14/36/wellington-107935_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,6 +146,7 @@ label {
   justify-content: space-evenly;
   margin: auto;
   width: 70%;
+  font-family: Montserrat;
   border-color: ;
   border-width: ;
   border-style: ;
@@ -154,11 +155,17 @@ label {
 }
 
 #head-MBP {
+  
+}
 
+h2 {
+  font-size: 5em;
 }
 
 #body-MBP {
-  
+  background-image: url("https://images.unsplash.com/photo-1478104718532-efe04cc3ff7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #p-MBP {
