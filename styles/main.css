@@ -168,6 +168,10 @@ h2 {
   background-size: cover;
 }
 
+.image-MBP {
+  width: 100%;
+}
+
 #p-MBP {
   font-size: 20px;
   font-family: Montserrat;
