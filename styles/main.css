@@ -24,6 +24,7 @@ space-evenly: items are distributed so that the spacing between any two items (a
   border-radius: 20px;
   background-color: rgb(139, 131, 131);
 }
+
 h1 {
   color: rgb(255, 0, 0);
   font-size: 50px;
@@ -89,6 +90,27 @@ label {
   padding: 10px;
   display: inline-flex;
   
+}
+
+#li-learning {
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: left;
+  margin: auto;
+  width: 95vw;
+  font-weight: bolder;
+  text-decoration-line: underline;
+}
+
+#learning {
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: left;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  width: 95vw;
+  text-decoration-line: none;
 }
 
 /*(320px), tablet (768px) and desktop (1200px+)*/
