@@ -23,55 +23,54 @@ p {
 
 /*Top nav bar*/
 .topnav {
+  
+}
+
+.topnav nav {
   display: flex;
-  align-items: center;
   background-color: black;
   margin-left: -15px; /*removes whitespace*/
   margin-right: -15px; /*removes whitespace*/
   margin-top: -15px; /*removes whitespace*/
   padding-right: 10px; /*removes whitespace*/
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: fixed; /*position set to fixed*/
-  top: 0; /*navbar poistions top*/
   width: 100%;
   justify-content: space-between;
+  position: fixed; /*position set to fixed*/
+  top: 0; /*navbar poistions top*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
 }
 
-.topnav nav {
-  display: inline-block
-}
-
-.topnav nav ul {
+.topnav ul {
   list-style-type: none; /*remove bullet points*/
 }
 
-.topnav nav ul li {
-  display: inline;
-  float: left;
-  display: block;
-  padding: 5px;
-  text-align: right;  
+.topnav li {
+  float: right;
+  text-align: center;
+  padding: 5px; /*space between links*/
   font-size: 15px;
   font-family: Montserrat;
   color: white;
 }
 
-.topnav nav ul li a {
-  color: red;  
+.topnav a {
+  color: red;    
 }
 
 /*surround link with blue box on hover*/
-.topnav nav ul li:hover {
+.topnav li:hover {
   color: white;
   background-color: blue;
 }
 
-.topnav nav ul li a:hover {
+/*change link color on hover*/
+.topnav a:hover {
   color: white;
 }
 
-.topnav nav ul li a:visited {
+.topnav a:visited {
   text-decoration: none;
 }
 
