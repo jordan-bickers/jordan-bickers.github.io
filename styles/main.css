@@ -31,16 +31,22 @@ p {
   margin-top: -15px; /*removes whitespace*/
   padding-right: 10px; /*removes whitespace*/
   padding-top: 10px;
+  padding-bottom: 10px;
   position: fixed; /*position set to fixed*/
   top: 0; /*navbar poistions top*/
   width: 100%;
+  justify-content: space-between;
 }
 
-.topnav ul {
+.topnav nav {
+  display: inline-block
+}
+
+.topnav nav ul {
   list-style-type: none; /*remove bullet points*/
 }
 
-.topnav ul li {
+.topnav nav ul li {
   display: inline;
   float: left;
   display: block;
@@ -51,22 +57,22 @@ p {
   color: white;
 }
 
+.topnav nav ul li a {
+  color: red;  
+}
+
 /*surround link with blue box on hover*/
-.topnav ul li:hover {
+.topnav nav ul li:hover {
+  color: white;
   background-color: blue;
 }
 
-.topnav ul li a:hover {
+.topnav nav ul li a:hover {
   color: white;
 }
 
-.topnav ul li a {
-  color: red;
-}
-
-.topnav ul li a:visited {
+.topnav nav ul li a:visited {
   text-decoration: none;
-  color: red;
 }
 
 /*
