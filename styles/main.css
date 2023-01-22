@@ -11,6 +11,33 @@ space-around: items are evenly distributed in the line with equal space around t
 space-evenly: items are distributed so that the spacing between any two items (and the space to the edges) is equal.
 */
 
+/*
+index.html
+*/
+
+
+
+/*
+html-css.html
+*/
+
+
+
+/*
+identity-values.html
+*/
+
+
+
+/*
+learning-plan.html
+*/
+
+
+
+/*
+te-houtaewa.html
+*/
 .flextrial {
   display: flex;
   flex-direction: row;
