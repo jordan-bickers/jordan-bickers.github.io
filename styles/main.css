@@ -36,11 +36,11 @@ p {
   width: 100%;
 }
 
-#ul-list-navbar {
+.topnav ul {
   list-style-type: none; /*remove bullet points*/
 }
 
-#li-list-navbar {
+.topnav ul li {
   display: inline;
   float: left;
   display: block;
@@ -52,17 +52,21 @@ p {
 }
 
 /*surround link with blue box on hover*/
-#li-list-navbar:hover {
+.topnav ul li:hover {
   background-color: blue;
 }
 
-#a-index.html-topnav {
+.topnav ul li a:hover {
+  color: white;
+}
+
+.topnav ul li a {
   color: red;
 }
 
-#a-index.html-topnav:visited {
+.topnav ul li a:visited {
   text-decoration: none;
-  color: white
+  color: red;
 }
 
 /*
