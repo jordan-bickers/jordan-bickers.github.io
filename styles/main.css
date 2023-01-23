@@ -75,13 +75,59 @@ p {
 }
 
 /*
+-------------------------------------------------------------------------
 index.html
 */
-#body1 {
+.body1HomePage {
   background-image: url("https://cdn.pixabay.com/photo/2013/04/29/14/36/wellington-107935_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 60px;
+}
+
+.body1homepage div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 500px;
+}
+
+.body1homepage .box1 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+}
+
+.box1 .responsiveimg-box1 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+}
+
+.box1 a {
+  height: 100%; /*link covers whole box*/
+}
+
+.firsttext p {
+  word-wrap: break-word; /*stops text overflow*/
+  border-style: solid;
+  border-color: black;
+  text-align: left;
+  width: 250px;
+}
+  /*position: absolute; /*forces text inside box*/
+.body1homepage .box2 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+}
+
+.body1homepage .box3 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
 }
 
 #p-index.html {
@@ -130,18 +176,57 @@ index.html
   display: inline-flex;
 }
 
-#responsive-img-index.html {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  padding-top: 10px;
-}
+
 
 /*
-html-css.html
+html-css.html (Margin, Padding, Borders).
 */
+#main-MBP {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+  font-family: Montserrat;
+  border-color: ;
+  border-width: ;
+  border-style: ;
+  border-radius: ;
+  background-color: rgb(139, 131, 131);
+}
 
+#head-MBP {
+  
+}
+
+h2 {
+  font-size: 5em;
+}
+
+#body-MBP {
+  background-image: url("https://images.unsplash.com/photo-1478104718532-efe04cc3ff7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-MBP {
+  width: 100%;
+}
+
+#p-MBP {
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 95vw;
+}
+
+#ul-MBP {
+  font-size: 20px;
+}
 
 
 /*
@@ -182,7 +267,7 @@ h1 {
 }
 
 
-p {
+/*p {
   font-size: 15px;
   font-family: Montserrat;
   text-align: center;
@@ -190,7 +275,7 @@ p {
   padding-top: 10px;
   width: 95vw;
 }
-
+*/
 #p3 {
   color: rgb(0, 0, 0);
 }
@@ -290,7 +375,7 @@ label {
 /*(320px), tablet (768px) and desktop (1200px+)*/
 
 /* #1 Phone (0px-320px) */
-@media (min-width: 0px) {
+/*@media (min-width: 0px) {
   p {
     color: red;
     font-size: 15px;
@@ -303,7 +388,7 @@ label {
 }
 
 /* #2 Tablet Takes priority based on order - anything over 320px (320px-768px)*/
-@media (min-width: 320px) {
+/*@media (min-width: 320px) {
   p{
     color: rgb(255, 0, 149);
     font-size: 15px;
@@ -316,7 +401,7 @@ label {
 }
 
 /* #3 Desktop Takes priority based on order - anything over 768px (768px-inf)*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   p {
     color: rgb(0, 0, 0);
     font-size: 15px;
@@ -330,53 +415,4 @@ label {
   #p3 {
     color: rgb(0, 0, 0);
   }
-}
-
-/* This is the beginning of the Margin, Padding, Borders, styles. */
-
-#main-MBP {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
-  margin: auto;
-  width: 70%;
-  font-family: Montserrat;
-  border-color: ;
-  border-width: ;
-  border-style: ;
-  border-radius: ;
-  background-color: rgb(139, 131, 131);
-}
-
-#head-MBP {
-  
-}
-
-h2 {
-  font-size: 5em;
-}
-
-#body-MBP {
-  background-image: url("https://images.unsplash.com/photo-1478104718532-efe04cc3ff7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.image-MBP {
-  width: 100%;
-}
-
-#p-MBP {
-  font-size: 20px;
-  font-family: Montserrat;
-  text-align: center;
-  margin: auto;
-  padding-top: 10px;
-  width: 95vw;
-}
-
-#ul-MBP {
-  font-size: 20px;
-}
+}*/
