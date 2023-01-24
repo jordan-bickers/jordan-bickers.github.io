@@ -87,15 +87,17 @@ index.html
 
 .body1homepage div {
   display: flex;
+  flex-flow: row wrap;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 500px;
 }
 
+/*Box1*/
 .body1homepage .box1 {
   border-style: solid;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   width: 300px;
   display: inline-block;
   position: relative; /* make this relative to have the inner div absolute without breaking out */
@@ -113,6 +115,91 @@ index.html
   height: 100%; /*link covers whole box*/
 }
 
+/*Box2*/
+.body1homepage .box2 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box2 .responsiveimg-box2 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.box2 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*Box3*/
+.body1homepage .box3 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box3 .responsiveimg-box3 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.box3 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*box4*/
+.body1homepage .box4 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box4 .responsiveimg-box4 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.box4 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*box5*/
+.body1homepage .box5 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box5 .responsiveimg-box5 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.box5 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*all boxes*/
 .firsttext p {
   position: absolute; /*forces text inside box*/
   bottom: 10px; /*positions text*/
@@ -120,21 +207,27 @@ index.html
   word-wrap: break-word; /*stops text overflow*/
   border-style: solid;
   border-color: black;
-  text-align: left;
+  text-align: center;
   width: 250px;
 }
 
-.body1homepage .box2 {
-  border-style: solid;
-  border-color: black;
-  width: 300px;
+.boxes .writing {
+  color: red;  
 }
 
-.body1homepage .box3 {
-  border-style: solid;
-  border-color: black;
-  width: 300px;
+/*change link color on hover*/
+.boxes a:hover {
+  color: rgb(0, 0, 0);
+                      /*highlight link with box on hiver*/
 }
+
+.boxes a:visited {
+  text-decoration: none;
+}
+
+
+
+
 
 #p-index.html {
   text-align: center;
