@@ -97,6 +97,8 @@ index.html
   border-style: solid;
   border-color: black;
   width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
 }
 
 .box1 .responsiveimg-box1 {
@@ -104,6 +106,7 @@ index.html
   height: 100%; /*height covers whole box*/
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 .box1 a {
@@ -111,13 +114,16 @@ index.html
 }
 
 .firsttext p {
+  position: absolute; /*forces text inside box*/
+  bottom: 10px; /*positions text*/
+  left: 20px; /*positions text*/
   word-wrap: break-word; /*stops text overflow*/
   border-style: solid;
   border-color: black;
   text-align: left;
   width: 250px;
 }
-  /*position: absolute; /*forces text inside box*/
+
 .body1homepage .box2 {
   border-style: solid;
   border-color: black;
