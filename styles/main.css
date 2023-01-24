@@ -23,10 +23,11 @@ p {
 
 /*Top nav bar*/
 .topnav {
-  
+  z-index: 2; /*attempting to prevent navbar being covered*/
 }
 
 .topnav nav {
+  z-index: 2; /*attempting to prevent navbar being covered*/
   display: flex;
   background-color: black;
   margin-left: -15px; /*removes whitespace*/
@@ -79,6 +80,7 @@ p {
 index.html
 */
 .body1HomePage {
+  z-index: 1; /*attempting to prevent navbar being covered*/
   background-image: url("https://cdn.pixabay.com/photo/2013/04/29/14/36/wellington-107935_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,6 +94,13 @@ index.html
   justify-content: space-evenly;
   flex-wrap: wrap;
   height: 500px;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /*Box1*/
