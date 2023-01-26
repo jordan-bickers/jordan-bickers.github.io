@@ -87,20 +87,24 @@ index.html
   margin-top: 60px;
 }
 
-.body1homepage div {
-  display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  height: 500px;
-}
-
 .boxes {
   display: flex;
   flex-flow: row wrap;
-  flex-direction: row;
   justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 300px;
+}
+
+.boxes div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+@media screen {
+  
 }
 
 /*Box1*/
