@@ -356,6 +356,56 @@ learning-plan.html
 /*
 te-houtaewa.html
 */
+
+/* --JS-DOM-BLOG-- */
+.main-dom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+  font-family: Montserrat;
+  border-color: ;
+  border-width: ;
+  border-style: ;
+  border-radius: ;
+  background-color: rgb(139, 131, 131);
+}
+
+.head-dom {
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 5em;
+}
+
+.body-dom {
+  background-image: url("https://images.unsplash.com/photo-1478104718532-efe04cc3ff7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-dom img {
+  width: 100%;
+}
+
+.main-dom p {
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 95vw;
+}
+
+.ul-dom {
+  font-size: 20px;
+}
+
+
 .flextrial {
   display: flex;
   flex-direction: row;
