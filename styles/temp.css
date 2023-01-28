@@ -1,0 +1,117 @@
+
+
+.body-dom {
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/21/17/42/ash-icons-vectors-644451_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-dom {
+  display: flex;
+  color: black;
+  font-size: 50px;
+  font-family: Montserrat;
+  flex-direction: column; 
+  margin-top: 60px;
+  margin: auto;
+  width: 70vw;
+  background-color: blue;
+}
+
+.head-dom h1 {
+  font-size: 50px;
+  margin-top: 60px;
+  margin: auto;
+}
+
+.head-dom h2 {
+  font-size: 25px;
+  margin: auto;
+}
+
+
+.spacing-dom {
+  display: flex;
+  
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: grey;
+  width: 70vw;
+  margin: auto;
+}
+
+.spacing-dom p {  
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.spacing-dom img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+
+/* .main-dom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70vw;
+  font-family: Montserrat;
+  border-color: ;
+  border-width: ;
+  border-style: ;
+  border-radius: ;
+  background-color: rgb(139, 131, 131);
+}
+
+.main-dom title {
+
+}
+
+
+
+
+.headers-dom h2 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline; 
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 95vw;
+}
+
+.headers-dom h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: normal;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+  width: 70vw;
+}
+
+
+
+
+
+.body-dom p {
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+  width: 70vw;
+}
+
+.ul-dom {
+  font-size: 20px;
+}
