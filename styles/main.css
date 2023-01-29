@@ -234,6 +234,7 @@ p {
   word-wrap: break-word; /*stops text overflow*/
   border-style: solid;
   border-color: black;
+  background-color: rgba(0, 0, 0, 0.541);
   text-align: center;
   width: 250px;
 }
@@ -244,7 +245,7 @@ p {
 
 /*change link color on hover*/
 .boxes a:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
                       /*highlight link with box on hiver*/
 }
 
