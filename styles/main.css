@@ -252,6 +252,18 @@ p {
 .boxes a:visited {
   text-decoration: none;
 }
+/*Change box orientation at x < 1300px*/
+
+@media (max-width: 1600px) {
+  /*Set boxes into column for nicer viewing, reduce gaps (FirstRow)*/
+  .boxes-firstRow {
+    gap: 30px;
+  }
+  /*Set boxes into column for nicer viewing, reduce gaps (SecondRow)*/
+  .boxes-secondRow {
+    gap: 30px;
+  }
+}
 
 /*Change box orientation at x < 1200px*/
 @media (max-width: 1200px) {
@@ -268,6 +280,10 @@ p {
     margin-top: 30px;
   }
 }
+
+
+
+
 
 
 /* -------Dead Stuff index.html---
