@@ -98,7 +98,7 @@ p {
   justify-content: space-evenly;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   gap: 300px;
 }
 
@@ -214,6 +214,27 @@ p {
 }
 
 .box5 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*Box6*/
+.body1homepage .box6 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box6 .responsiveimg-box6 {
+  width: 100%; /*width covers whole box*/
+  height: 100%; /*height covers whole box*/
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.box6 a {
   height: 100%; /*link covers whole box*/
 }
 
