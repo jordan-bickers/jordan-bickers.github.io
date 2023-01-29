@@ -43,6 +43,16 @@ p {
   display: inline-block;
 }
 
+.topnav img {
+  width: 55px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: -55px; /*Prevent navbar enlarging*/
+}
+
 .topnav ul {
   list-style-type: none; /*remove bullet points*/
 }
@@ -86,6 +96,7 @@ p {
 
 .body1HomePage h1 {
   color: rgb(255, 0, 0);
+  background-color: rgba(0, 0, 0, 0.603);
   font-size: 50px;
   font-family: Montserrat;
   text-align: center;
@@ -100,6 +111,7 @@ p {
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
   gap: 300px;
+  margin-top: 60px;
 }
 
 .boxes-firstRow div {
@@ -165,6 +177,7 @@ p {
   align-items: center;
   background-color: rgba(0, 0, 0, 0);
   gap: 300px;
+  margin-top: 60px;
 }
 
 .boxes-secondRow div {
@@ -240,9 +253,18 @@ p {
 }
 
 /*Change box orientation at x < 1200px*/
-@media only screen and (max-width 1200px) {
-  .boxes {
+@media (max-width: 1200px) {
+  /*Set boxes into column for nicer viewing, reduce gaps (FirstRow)*/
+  .boxes-firstRow {
     flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  /*Set boxes into column for nicer viewing, reduce gaps (SecondRow)*/
+  .boxes-secondRow {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
   }
 }
 
