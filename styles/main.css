@@ -233,6 +233,65 @@ p {
   height: 100%; /*link covers whole box*/
 }
 
+/*--------Third row of boxes---------*/
+
+.boxes-thirdRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  gap: 300px;
+  margin-top: 60px;
+}
+
+.boxes-thirdRow div {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+
+/*box7*/
+.body1homepage .box7 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box7 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*box8*/
+.body1homepage .box8 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box8 a {
+  height: 100%; /*link covers whole box*/
+}
+
+/*Box9*/
+.body1homepage .box9 {
+  border-style: solid;
+  border-color: black;
+  width: 300px;
+  display: inline-block;
+  position: relative; /* make this relative to have the inner div absolute without breaking out */
+}
+
+.box9 a {
+  height: 100%; /*link covers whole box*/
+}
+
 /*all boxes*/
 .boxes p {
   position: absolute; /*forces text inside box*/
@@ -272,6 +331,10 @@ p {
   .boxes-secondRow {
     gap: 30px;
   }
+/*Set boxes into column for nicer viewing, reduce gaps (SecondRow)*/
+  .boxes-thirdRow {
+    gap: 30px;
+}
 }
 
 /*Change box orientation at x < 1200px*/
@@ -284,6 +347,12 @@ p {
   }
   /*Set boxes into column for nicer viewing, reduce gaps (SecondRow)*/
   .boxes-secondRow {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  /*Set boxes into column for nicer viewing, reduce gaps (ThirdRow)*/
+  .boxes-thirdRow {
     flex-direction: column;
     gap: 30px;
     margin-top: 30px;
