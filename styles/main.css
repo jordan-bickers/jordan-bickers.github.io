@@ -11,6 +11,10 @@ space-around: items are evenly distributed in the line with equal space around t
 space-evenly: items are distributed so that the spacing between any two items (and the space to the edges) is equal.
 */
 
+/* --Rainbow Text :D--
+background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); */
+
+
 
 /*
 [[[[[ALL HTML]]]]]
@@ -252,9 +256,11 @@ p {
                       /*highlight link with box on hiver*/
 }
 
+/*stops link from staying purple after visited.*/
 .boxes a:visited {
   text-decoration: none;
 }
+
 /*Change box orientation at x < 1300px*/
 
 @media (max-width: 1600px) {
@@ -513,6 +519,89 @@ te-houtaewa.html
 }
 
 
+/* -------------------Neuroplasticity------------------------- */
+
+.body-neuro {
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/21/17/42/ash-icons-vectors-644451_960_720.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-neuro {
+  display: flex;
+  color: black;
+  font-size: 50px;
+  font-family: Montserrat;
+  flex-direction: column; 
+  margin: auto;
+  margin-top: 60px;
+  width: 70vw;
+  background-color: rgba(75, 75, 82, 0.938);
+}
+
+.head-neuro h1 {
+  font-size: 50px;
+  margin-top: 60px;
+  margin: auto;
+}
+
+.head-neuro h2 {
+  font-size: 25px;
+  margin: auto;
+}
+
+.tinyHeader h3 {
+  font-family: Montserrat;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 23px;
+  margin: 10px;
+}
+
+.boxes-neuro {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.spacing-neuro {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(5, 118, 170);
+  width: 70vw;
+  margin: auto;
+}
+
+.spacing-neuro p {  
+  text-decoration: none;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.spacing-neuro img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.boxes-neuro a { 
+  color: rgb(255, 255, 255);
+}
+
+
+/*stops link from staying purple after visited.*/
+.boxes-neuro a:visited {
+  text-decoration: none;
+}
 
 
 
