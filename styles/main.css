@@ -746,6 +746,98 @@ label {
 }
 
 
+/* ------------------------problem-solving.html----------------------  */
+
+
+.body-problem-solving {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/05/13/34/rubiks-cube-2583645_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-problem-solving {
+  display: flex;
+  color: black;
+  font-size: 50px;
+  font-family: Montserrat;
+  flex-direction: column; 
+  margin: auto;
+  margin-top: 60px;
+  width: 70vw;
+  background-color: rgba(78, 78, 221, 0.938);
+}
+
+.head-problem-solving h1 {
+  font-size: 50px;
+  margin-top: 60px;
+  margin: auto;
+}
+
+.head-problem-solving h2 {
+  font-size: 25px;
+  margin: auto;
+}
+
+.tinyHeader h3 {
+  font-family: Montserrat;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 23px;
+  margin: 10px;
+}
+
+.boxes-problem-solving {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.spacing-problem-solving {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(165, 207, 228, 0.945);
+  width: 70vw;
+  margin: auto;
+}
+
+.spacing-problem-solving p {  
+  text-decoration: none;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.spacing-problem-solving img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.boxes-problem-solving a { 
+  color: rgb(255, 255, 255);
+}
+
+
+/*stops link from staying purple after visited.*/
+.boxes-problem-solving a:visited {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
 
 
 /*(320px), tablet (768px) and desktop (1200px+)*/
