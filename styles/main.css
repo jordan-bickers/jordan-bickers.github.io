@@ -594,14 +594,13 @@ te-houtaewa.html
   background-image: url("https://cdn.pixabay.com/photo/2017/04/08/11/07/nerve-cells-2213009_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .head-neuro {
-  display: flex;
   color: black;
   font-size: 50px;
   font-family: Montserrat;
-  flex-direction: column; 
   margin: auto;
   margin-top: 60px;
   width: 70vw;
@@ -612,6 +611,12 @@ te-houtaewa.html
   font-size: 50px;
   margin-top: 60px;
   margin: auto;
+}
+
+@media (max-width: 800px) {
+  .head-neuro h1 {
+    font-size: 35px;
+  }
 }
 
 .head-neuro h2 {
@@ -633,7 +638,6 @@ te-houtaewa.html
   justify-content: space-evenly;
   justify-content: center;
   align-items: center;
-  background-color: ;
   gap: 50px;
   margin-top: 10px;
 }
@@ -674,7 +678,7 @@ te-houtaewa.html
 
 
 
-.flextrial {
+/* .flextrial {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -686,7 +690,7 @@ te-houtaewa.html
   border-style: dashed;
   border-radius: 20px;
   background-color: rgb(139, 131, 131);
-}
+} */
 
 
 
@@ -757,11 +761,9 @@ label {
 }
 
 .head-problem-solving {
-  display: flex;
   color: black;
   font-size: 50px;
   font-family: Montserrat;
-  flex-direction: column; 
   margin: auto;
   margin-top: 60px;
   width: 70vw;
@@ -884,3 +886,5 @@ label {
     color: rgb(0, 0, 0);
   }
 }*/
+
+
