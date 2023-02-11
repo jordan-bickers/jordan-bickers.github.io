@@ -834,9 +834,89 @@ label {
   text-decoration: none;
 }
 
+/* -------------------FOUNDATIONS-REFLECTION.HTML-------------------------  */
+
+.body-foundations-reflection {
+  background-image: url("https://cdn.pixabay.com/photo/2017/10/09/19/17/iron-railings-2834506__340.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-foundations-reflection {
+  color: black;
+  font-size: 50px;
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 70vw;
+  background-color: rgba(122, 121, 121, 0.938);
+}
+
+.head-foundations-reflection h1 {
+  font-size: 50px;
+  margin-top: 60px;
+  margin: auto;
+}
+
+.head-foundations-reflection h2 {
+  font-size: 25px;
+  margin: auto;
+}
+
+.tinyHeader h3 {
+  font-family: Montserrat;
+  text-decoration: underline;
+  text-align: left;
+  font-size: 23px;
+  margin: 10px;
+}
+
+.boxes-foundations-reflection {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.spacing-foundations-reflection {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.877);
+  width: 70vw;
+  margin: auto;
+}
+
+.spacing-foundations-reflection p {  
+  text-decoration: none;
+  font-family: Montserrat;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.spacing-foundations-reflection img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.boxes-foundations-reflection a { 
+  color: rgb(255, 255, 255);
+}
 
 
-
+/*stops link from staying purple after visited.*/
+.boxes-foundations-reflection a:visited {
+  text-decoration: none;
+}
 
 
 
