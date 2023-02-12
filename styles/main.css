@@ -52,7 +52,7 @@ p {
   height: 3em;
   display: inline-block;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
   margin: 0px;
   padding-top: -5px;
 }
